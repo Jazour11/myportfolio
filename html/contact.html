@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+  <nav>
+    <div class = "logo"><a href="../index.html"><img src="../img/mylogo.png"></a></div>
+      <ul class = "nav-links">
+
+        <li>
+          <a class id="hLink" href="../index.html">Home</a>
+        </li>
+        
+        <li>
+          <a class id="aLink" href="../html/about.html">About</a>
+        </li>
+        
+        <li>
+          <a class id="pLink" href="../html/projects.html">Projects</a>
+        </li>
+       
+        <li>
+          <a class id="cLink" href="../html/contact.html">Contact Me</a>
+        </li>
+
+      </ul>
+      
+      <div class ="burger">
+        <div class ="line1"></div>
+        <div class ="line2"></div>
+        <div class ="line3"></div>
+      </div>
+  
+  </nav>
+
+    <!-- Navbar End -->
+
+      <!-- Contact -->
+      
+      <div class="chead">
+        <h1>Contact</h1>
+      </div>
+
+      <div class="container4">
+        <form action ="https://formsubmit.co/jaz66@pitt.coedu" method="POST" />">
+          
+          <label for="fname" style="color:rgb(206, 205, 205)">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname" style="color:rgb(206, 205, 205)">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="email" style="color:rgb(206, 205, 205)">Email</label>
+          <input type="text" id="email" name="email" placeholder="your@email.com">
+      
+          <label for="country" style="color:rgb(206, 205, 205)">Country</label>
+          <select id="country" name="country">
+            <option value="United States">United States</option>
+            <option value="canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="Other">Other</option>
+          </select>
+      
+          <label for="subject" style="color:rgb(206, 205, 205)">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+        <!-- Contact Ends -->
+
+  <script src="../app.js"></script>
+  <br><br><br><br>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
+</body>
+</html>
