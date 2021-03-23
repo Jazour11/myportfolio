@@ -108,7 +108,15 @@ function doIt(){
     doTimer = null;
 }
 // HomePage - index.html end.
-// About - about.html
+
+// Resume -resume.html
+function myEmail() {
+    document.getElementById("resEmail").innerHTML = "jaz66@pitt.edu";
+}
+function myPhone() {
+    document.getElementById("resPhone").innerHTML = "724-594-3341";
+
+}
 
 
 

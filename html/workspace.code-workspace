@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\inspirational quote generator"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "inspirational quote generator"
+	}
+}
